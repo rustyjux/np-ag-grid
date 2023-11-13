@@ -87,26 +87,32 @@ var mainGridOptions = {
               }
           },
       },
-      {
-          field:"open",
-          headerName: "",
-          width: 0,
-      },
+      // {
+      //     field:"open",
+      //     headerName: "",
+      //     width: 0,
+      // },
       // {field:"hazard"}, // TODO only show hazard content if true and show in "open" field?
       {
           headerName: 'Last Groomed',
           field: 'lastGroomedManual',
           cellRenderer: params => {
               // determine if lastGroomed or lastGroomedManual is more recent and use that for date
-              const lastGroomedManualDate = params.value ? new Date(params.value) : null;
-              const lastGroomedDate = params.data.lastGroomed ? new Date(params.data.lastGroomed) : null;
-              const date = lastGroomedManualDate > lastGroomedDate ? lastGroomedManualDate : lastGroomedDate;
-              const groomingClass = lastGroomedManualDate > lastGroomedDate ? params.data.lastGroomedManualClass : params.data.lastGroomedClass;
-
-              const open = params.data.open;
-              if (!date || !open) {
-                return '';
-              }
+              let lastGroomed;
+              let lastGroomedClass = '';
+              if (params.data.open){
+                if(params.data.manual) { // check manual (non-gps) mode
+                  lastGroomed = params.data.lastGroomedManual;
+                  lastGroomedClass = params.data.lastGroomedManualClass;
+                } else { // default to gps time
+                  lastGroomed = params.data.lastGroomed;
+                  lastGroomedClass = params.data.lastGroomedClass;
+                }
+                } else {
+                  return '';
+                }
+              
+              const date = new Date(lastGroomed)
               const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
               const month = monthNames[date.getUTCMonth()];
               const day = date.getUTCDate();
@@ -121,7 +127,7 @@ var mainGridOptions = {
               return `
                 <div class="grooming-cell">
                   <div>${month} ${day} ${hours}:${minutes.toString().padStart(2, '0')}${ampm}</div>
-                  <div class="grooming-icon ${groomingClass}">O</div>
+                  <div class="grooming-icon ${lastGroomedClass}">O</div>
                 </div>
               `;
             },
