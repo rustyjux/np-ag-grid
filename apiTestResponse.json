@@ -1,0 +1,4640 @@
+{
+    "ski-area": {
+        "gpsType": "nordic",
+        "langs": [],
+        "_id": "5ffcca871626d430efddfa37",
+        "groomers": [
+            {
+                "groomerID": "839EBA43-009F-4EE8-A5A9-BC1336DE1663",
+                "groomerNickname": "BJ iPhone",
+                "liveTrack": true,
+                "authorized": true,
+                "confirmDelete": false
+            },
+            {
+                "groomerNickname": "Bob Wink",
+                "groomerID": "53B74743-A784-4D5A-BC83-1EFF6AE54DED",
+                "authorized": true,
+                "liveTrack": true
+            },
+            {
+                "groomerNickname": "Brad Ryz",
+                "groomerID": "F4A1B291-C796-4498-82A0-DE939E75A959",
+                "authorized": true,
+                "liveTrack": true
+            },
+            {
+                "groomerID": "7A13AA6D-01C5-4EBA-8112-768F3DBB2ED7",
+                "groomerNickname": "Dave Wood",
+                "authorized": true,
+                "liveTrack": true,
+                "editMode": false
+            },
+            {
+                "groomerID": "8F7D799D-C804-4403-9C85-2B859D228287",
+                "groomerNickname": "Ethan",
+                "authorized": true,
+                "liveTrack": true,
+                "editMode": false
+            },
+            {
+                "groomerNickname": "Ethan",
+                "groomerID": "3447EEF4-DD4B-41B7-B206-9C840ED47EB4",
+                "authorized": true,
+                "liveTrack": true
+            },
+            {
+                "groomerNickname": "Fred",
+                "groomerID": "9beff39068fcecf1",
+                "authorized": true,
+                "liveTrack": true
+            },
+            {
+                "groomerNickname": "Handy Howard ",
+                "groomerID": "57cf71cc4fd39f5e",
+                "authorized": true,
+                "liveTrack": true
+            },
+            {
+                "groomerNickname": "Isaac",
+                "groomerID": "2986DAD5-77B3-4D3F-B27C-48A89BFB681F",
+                "authorized": true,
+                "liveTrack": true
+            },
+            {
+                "groomerNickname": "Isaac ",
+                "groomerID": "417EF096-DC06-4495-98F4-C1EE3A44644F",
+                "authorized": true,
+                "liveTrack": true
+            },
+            {
+                "groomerNickname": "Kiosk",
+                "groomerID": "b4163365d2962d20",
+                "authorized": true,
+                "confirmDelete": false
+            },
+            {
+                "groomerNickname": "PK_",
+                "groomerID": "B7B6E665-2478-4949-AE84-EC5C7A164A8D",
+                "authorized": true,
+                "liveTrack": true
+            },
+            {
+                "groomerID": "10F04D1F-BAE3-4DFD-B164-97453519A7CF",
+                "groomerNickname": "Pete K",
+                "liveTrack": true,
+                "authorized": true,
+                "editMode": false
+            },
+            {
+                "groomerID": "4609ecc288626ea6",
+                "groomerNickname": "Pete P",
+                "liveTrack": true,
+                "authorized": true,
+                "editMode": false
+            },
+            {
+                "groomerID": "e45f76c58dccfefb",
+                "groomerNickname": "Peter L",
+                "liveTrack": true,
+                "authorized": true,
+                "editMode": false
+            },
+            {
+                "groomerNickname": "Russell",
+                "groomerID": "1403d9af9e234dec",
+                "authorized": true,
+                "liveTrack": true
+            },
+            {
+                "groomerNickname": "Groomer J",
+                "groomerID": "dev",
+                "authorized": false
+            }
+        ],
+        "coordinates": [
+            49.113237,
+            -117.814854
+        ],
+        "groups": [
+            {
+                "groupId": "BlackJackMainNetwork",
+                "groupOrder": "BlackJackMainNetwork",
+                "groupName": "Black Jack Main Network"
+            },
+            {
+                "groupId": "HannaCreekBiathlon",
+                "groupOrder": "HannaCreekBiathlon",
+                "groupName": "Hanna Creek Biathlon"
+            }
+        ],
+        "dist": true,
+        "clubName": "Black Jack Ski Club",
+        "city": {
+            "en": "Rossland",
+            "fr": null,
+            "_id": "63967e877e9ddddac9fb7935"
+        },
+        "clubId": "BC-BlackJack",
+        "permalink": "Black-Jack-Ski-Club",
+        "region": "British Columbia",
+        "network": "BC-BlackJack.geojson",
+        "trails": "BC-BlackJack-trails.json",
+        "logo": "BC-BlackJack.png",
+        "banner": "BC-BlackJack-banner.jpg",
+        "website": "http://www.skiblackjack.ca",
+        "weatherLink": "https://www.snow-forecast.com/resorts/Red-Mountain/6day/bot",
+        "sponsor": true,
+        "sponsorLogo": "BC-BlackJack-sponsor.jpg",
+        "sponsorLink": "https://dave-gibson.c21.ca",
+        "sponsorText": {
+            "en": "<p>Dave Gibson Realtor C21 Kootenay Homes (2018) ltd</p>",
+            "fr": "",
+            "_id": "63967e877e9ddddac9fb7931"
+        },
+        "lastGroomed": "2021-01-01T00:00:00.000Z",
+        "regionId": "BC",
+        "country": "Canada",
+        "countryId": "CA",
+        "active": true,
+        "auto": true,
+        "liveTrack": true,
+        "theme": "light",
+        "timezone": "America/Vancouver",
+        "photoCred": "Iain Reid",
+        "zoom": 13.89,
+        "zoomCenter": [
+            49.136497,
+            -117.820596
+        ],
+        "__v": 6,
+        "lastGroomedClass": "twoWeeksAgo",
+        "testimonial": true,
+        "regions": [
+            "WestKootenays",
+            "Kootenays"
+        ],
+        "distance": "52797.640750992745",
+        "distanceGroups": [
+            {
+                "id": "easy",
+                "name": "Easy",
+                "name_fr": "Facile",
+                "distance": 18.217542688088834,
+                "percent": 34.50446351193503
+            },
+            {
+                "id": "intermediate",
+                "name": "Intermediate",
+                "name_fr": "Interm�diaire",
+                "distance": 25.93454162262079,
+                "percent": 49.120644888158466
+            },
+            {
+                "id": "advanced",
+                "name": "Advanced",
+                "name_fr": "Avanc�",
+                "distance": 8.62201383168718,
+                "percent": 16.330301333634992
+            },
+            {
+                "id": "unknown",
+                "name": "Unknown",
+                "name_fr": "Inconnu",
+                "distance": 0.02354260859596509,
+                "percent": 0.04459026627155195
+            }
+        ],
+        "inProgress": false,
+        "inProgressExpiry": "2022-03-20T16:59:48.000Z",
+        "inProgressDate": "2022-03-20T13:59:48.000Z",
+        "updatedAt": "2023-10-16T14:29:41.255Z",
+        "apiAccess": [
+            "BoRTlpW3Wh0C"
+        ],
+        "overpassQuery": [
+            "Hanna Creek Biathlon",
+            "Black Jack Main Network"
+        ],
+        "overpassQueryBounds": "49.09508356331562,-117.96915153605691,49.17952947136954,-117.6836846902863",
+        "hideColumns": [
+            ""
+        ],
+        "photoCredUrl": "",
+        "testMode": false,
+        "v": "v3",
+        "clubName_fr": null,
+        "groomedBy": {
+            "en": null,
+            "fr": null,
+            "_id": "63967e877e9ddddac9fb7934"
+        },
+        "regionsData": [],
+        "trackset": false,
+        "weatherLink_fr": "",
+        "webcamLink": "",
+        "webcamLink_fr": "",
+        "website_fr": "",
+        "currentCond": "hard packed ",
+        "currentTemp": 3.8,
+        "snow12h": 10,
+        "snow24h": 13,
+        "groomedBy_fr": "",
+        "matchingGPSAccuracy": null,
+        "matchingsConfidenceLimit": null,
+        "matchingsGroupSize": null,
+        "routeFactor": null,
+        "tracksetType": "",
+        "trailFactor": null,
+        "lastGroomedGroups": [
+            {
+                "id": "today",
+                "name": "Today",
+                "name_fr": "Aujourd'hui",
+                "distance": 0,
+                "waypoints": [],
+                "percent": 0
+            },
+            {
+                "id": "oneDayAgo",
+                "name": "1-3 Days Ago",
+                "name_fr": "Il y a 1-3 jours",
+                "distance": 0,
+                "waypoints": [],
+                "percent": 0
+            },
+            {
+                "id": "fourDaysAgo",
+                "name": "4-6 Days Ago",
+                "name_fr": "Il y a 4-6 jours",
+                "distance": 0,
+                "waypoints": [],
+                "percent": 0
+            },
+            {
+                "id": "sevenDaysAgo",
+                "name": "7-10 Days Ago",
+                "name_fr": "Il y a 7-10 jours",
+                "distance": 0,
+                "waypoints": [],
+                "percent": 0
+            },
+            {
+                "id": "tenDaysAgo",
+                "name": "11-14 Days Ago",
+                "name_fr": "Il y a 11-14 jours",
+                "distance": 0,
+                "waypoints": [],
+                "percent": 0
+            },
+            {
+                "id": "twoWeeksAgo",
+                "name": "14+ Days Ago",
+                "name_fr": "Il y a 14+ jours",
+                "distance": 0,
+                "waypoints": [],
+                "percent": 0
+            }
+        ],
+        "elevation": 1139.2141529459445,
+        "weather": {
+            "meta": {
+                "updated_at": "2023-10-16T13:27:52Z",
+                "units": {
+                    "air_pressure_at_sea_level": "hPa",
+                    "air_temperature": "celsius",
+                    "air_temperature_max": "celsius",
+                    "air_temperature_min": "celsius",
+                    "cloud_area_fraction": "%",
+                    "cloud_area_fraction_high": "%",
+                    "cloud_area_fraction_low": "%",
+                    "cloud_area_fraction_medium": "%",
+                    "dew_point_temperature": "celsius",
+                    "fog_area_fraction": "%",
+                    "precipitation_amount": "mm",
+                    "relative_humidity": "%",
+                    "ultraviolet_index_clear_sky": "1",
+                    "wind_from_direction": "degrees",
+                    "wind_speed": "m/s"
+                }
+            },
+            "timeseries": [
+                {
+                    "time": "2023-10-16T13:00:00Z",
+                    "data": {
+                        "instant": {
+                            "details": {
+                                "air_pressure_at_sea_level": 1016.7,
+                                "air_temperature": 8.2,
+                                "cloud_area_fraction": 100,
+                                "cloud_area_fraction_high": 100,
+                                "cloud_area_fraction_low": 0,
+                                "cloud_area_fraction_medium": 2.3,
+                                "dew_point_temperature": 3.6,
+                                "fog_area_fraction": 0,
+                                "relative_humidity": 72.9,
+                                "ultraviolet_index_clear_sky": 0,
+                                "wind_from_direction": 336.7,
+                                "wind_speed": 1.7
+                            }
+                        },
+                        "next_12_hours": {
+                            "summary": {
+                                "symbol_code": "cloudy"
+                            }
+                        },
+                        "next_1_hours": {
+                            "summary": {
+                                "symbol_code": "partlycloudy_night"
+                            },
+                            "details": {
+                                "precipitation_amount": 0
+                            }
+                        },
+                        "next_6_hours": {
+                            "summary": {
+                                "symbol_code": "cloudy"
+                            },
+                            "details": {
+                                "air_temperature_max": 14.5,
+                                "air_temperature_min": 8.4,
+                                "precipitation_amount": 0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "reportLatest": {
+            "type": "grooming-report",
+            "content": {
+                "en": "<div class=\"xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs x126k92a\">\n<div dir=\"auto\">Last day of grooming at Biathlon was Sunday May 7th. What a great season it's been! We've been skiing since November 5th and stretching it out well into the spring.</div>\n<div dir=\"auto\">&nbsp;</div>\n</div>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\">\n<div dir=\"auto\">Trails are officially closed and no longer maintained -- you are welcome to keep going, but ski at your own discretion and risk.</div>\n<div dir=\"auto\">&nbsp;</div>\n</div>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\">\n<div dir=\"auto\">Thank you to all the incredible volunteers who made this season run so smoothly -- from the groomers, to the board, to the event organizers, to the coaches, to all the volunteers who helped out where they could. You make our club a fantastic place to ski!</div>\n</div>",
+                "fr": "",
+                "_id": "645959c134a938cf3e98c7b1"
+            },
+            "timestamp": "2023-05-08T20:20:14.060Z",
+            "expire": "2023-05-08T23:20:14.060Z",
+            "images": [],
+            "_id": "645959c134a938cf3e98c7b0",
+            "updatedAt": "2023-05-08T20:21:21.810Z",
+            "createdAt": "2023-05-08T20:21:21.810Z",
+            "__v": 0,
+            "reportAuthor": null,
+            "reportType": "grooming-report",
+            "reportMachine": null,
+            "reportExpire": "2023-05-08T23:20:14.060Z",
+            "reportTimestamp": "2023-05-08T20:20:14.060Z",
+            "reportContent": "<div class=\"xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs x126k92a\">\n<div dir=\"auto\">Last day of grooming at Biathlon was Sunday May 7th. What a great season it's been! We've been skiing since November 5th and stretching it out well into the spring.</div>\n<div dir=\"auto\">&nbsp;</div>\n</div>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\">\n<div dir=\"auto\">Trails are officially closed and no longer maintained -- you are welcome to keep going, but ski at your own discretion and risk.</div>\n<div dir=\"auto\">&nbsp;</div>\n</div>\n<div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\">\n<div dir=\"auto\">Thank you to all the incredible volunteers who made this season run so smoothly -- from the groomers, to the board, to the event organizers, to the coaches, to all the volunteers who helped out where they could. You make our club a fantastic place to ski!</div>\n</div>"
+        },
+        "description": {
+            "en": "<p>Black Jack ranks as one of the premier cross-country ski facilities in western Canada because of its variety of trails, excellent grooming, abundant and reliable snowfall, and proximity to Rossland. We host thousands of day-skier visits per year and many high-profile races, from NorAm Canada Cups to the Canadian Masters Championship.</p>\n<p>The Black Jack Cross Country Ski Club is a non-profit society with over 700 members, established in 1983. Our mission is to build a community of Nordic skiers by providing and sustaining excellence in programs and services. We continually make significant improvements to our club through the tireless efforts of volunteers and the successful management of generous grants.</p>\n<p>Strong support from our community has enabled Black Jack to grow to its current level. We greatly appreciate the support we from members, donors, and sponsors. Thank you!</p>",
+            "fr": "",
+            "_id": "63967e877e9ddddac9fb7933"
+        },
+        "descriptionDirections": {
+            "en": "<p><strong>Driving Directions From Rossland BC:</strong><br />From intersection of Hwy 22 and 3B head north for 4.5km.<br />Turn Right onto Mann Road. <br />Drive for 900m, turn left on Campbell Road <br />Parking lot and Clubhouse are on right.</p>",
+            "fr": "",
+            "_id": "63967e877e9ddddac9fb7932"
+        },
+        "elevationProfile": false,
+        "manual": false,
+        "nonOSM": false,
+        "renewalDate": null,
+        "lastGroomedGroupsTrackSet": [],
+        "links": {
+            "website": {
+                "en": "http://www.skiblackjack.ca",
+                "fr": "",
+                "_id": "63967e877e9ddddac9fb7938"
+            },
+            "weather": {
+                "en": "https://www.snow-forecast.com/resorts/Red-Mountain/6day/bot",
+                "fr": "",
+                "_id": "63967e877e9ddddac9fb7939"
+            },
+            "webcam": {
+                "en": "",
+                "fr": "",
+                "_id": "63967e877e9ddddac9fb793a"
+            },
+            "_id": "63967e877e9ddddac9fb7937"
+        },
+        "name": {
+            "en": "Black Jack Ski Club",
+            "fr": null,
+            "_id": "63967e877e9ddddac9fb7936"
+        },
+        "reportInProgress": [],
+        "reportNotices": [
+            {
+                "type": "grooming-report-notice",
+                "content": {
+                    "en": "<div class=\"xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs x126k92a\">\n<div dir=\"auto\">Trails are officially closed and no longer maintained -- you are welcome to keep going, but ski at your own discretion and risk.</div>\n</div>",
+                    "fr": "",
+                    "_id": "645959c134a938cf3e98c7b1"
+                },
+                "timestamp": "2023-05-08T20:20:14.060Z",
+                "expire": "2023-05-08T23:20:14.060Z",
+                "images": [],
+                "_id": "645959c134a938cf3e98c7b0",
+                "updatedAt": "2023-05-08T20:22:13.478Z",
+                "createdAt": "2023-05-08T20:21:21.810Z",
+                "__v": 0,
+                "reportAuthor": null,
+                "reportType": "grooming-report-notice",
+                "reportMachine": null,
+                "reportExpire": "2023-05-08T23:20:14.060Z",
+                "reportTimestamp": "2023-05-08T20:20:14.060Z",
+                "reportContent": "<div class=\"xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs x126k92a\">\n<div dir=\"auto\">Trails are officially closed and no longer maintained -- you are welcome to keep going, but ski at your own discretion and risk.</div>\n</div>"
+            }
+        ],
+        "sponsorText2": "Dave Gibson Realtor C21 Kootenay Homes (2018) ltd",
+        "snowDepth": 10,
+        "snowDepthUnpacked": 60,
+        "snowAnnual": 0,
+        "tempUnits": "C",
+        "bounds": [
+            [
+                -117.85511,
+                49.1091424
+            ],
+            [
+                -117.797549,
+                49.16544
+            ]
+        ],
+        "webcams": [],
+        "timezoneUTC": "-7",
+        "id": "5ffcca871626d430efddfa37"
+    },
+    "trails": [
+        {
+            "_id": "61b919f32d1fdc6f0aa7806e",
+            "name": "Biathlon Connector",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 2718.19,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                265732399,
+                306761271,
+                383644507,
+                757094109,
+                902856312
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:55.067Z",
+            "hazard": false,
+            "manual": true,
+            "lastGroomedManual": "2023-04-19T18:43:11.307Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 265732399,
+                    "timestamp": "2023-04-19T18:43:11.307Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 306761271,
+                    "timestamp": "2023-04-19T18:43:11.307Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 383644507,
+                    "timestamp": "2023-04-19T18:43:11.307Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 757094109,
+                    "timestamp": "2023-04-19T18:43:11.307Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856312,
+                    "timestamp": "2023-04-19T18:43:11.307Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f32d1fdc6f0aa78070",
+            "name": "Extra Round",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 301.99,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 301.99,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                225121807,
+                1005699758
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:55.171Z",
+            "hazard": false,
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": "2023-04-23T15:47:38.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2023-04-19T18:43:11.307Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 225121807,
+                    "timestamp": "2023-04-23T15:47:38.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699758,
+                    "timestamp": "2023-04-23T15:47:38.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f42d1fdc6f0aa780f4",
+            "name": "Tall Timbers (climb)",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "cl",
+            "description": "",
+            "distance": 1395.19,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                755054439,
+                902856324
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:56.755Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": false,
+            "lastGroomedManual": "2023-04-23T16:14:51.441Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 755054439,
+                    "timestamp": "2023-03-25T21:57:53.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856324,
+                    "timestamp": "2023-03-25T21:55:27.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f42d1fdc6f0aa780f6",
+            "name": "Down to Hemlock",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 326.41,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                765855500
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:56.849Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": false,
+            "lastGroomedManual": "2022-09-16T21:53:08.604Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "hide": true,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 765855500,
+                    "timestamp": "2023-03-15T15:48:14.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f42d1fdc6f0aa780f8",
+            "name": "Viewpoint",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 1836.44,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 1836.44,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                763464483,
+                1005699759
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:56.958Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "lastGroomed": "2023-04-17T17:08:36.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2023-03-03T16:44:02.342Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 763464483,
+                    "timestamp": "2023-04-17T17:08:36.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699759,
+                    "timestamp": "2023-04-17T17:04:41.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f52d1fdc6f0aa780fa",
+            "name": "Gibbard's Hill",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 149.14,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370904670
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:57.063Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": false,
+            "lastGroomedManual": "2021-12-18T16:53:21.803Z",
+            "hazard": false,
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370904670,
+                    "timestamp": "2023-04-11T20:21:19.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f52d1fdc6f0aa780fc",
+            "name": "Tramway",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 913.67,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 913.67,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370916186,
+                1001530194,
+                1001530195
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:57.162Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": "2023-04-14T16:58:09.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2022-03-28T05:59:16.511Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370916186,
+                    "timestamp": "2023-04-14T16:58:09.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530194,
+                    "timestamp": "2023-04-14T16:50:39.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530195,
+                    "timestamp": "2023-04-14T16:49:44.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f52d1fdc6f0aa780fe",
+            "name": "Neptune Creek",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 1217.04,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                390353622,
+                1001524987,
+                1001524989
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:57.260Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": false,
+            "lastGroomedManual": "2023-03-03T16:44:02.342Z",
+            "lastGroomedManualClass": "today",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 390353622,
+                    "timestamp": "2023-04-17T17:30:06.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001524987,
+                    "timestamp": "2023-04-17T17:26:35.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001524989,
+                    "timestamp": "2023-04-17T16:11:26.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f52d1fdc6f0aa78100",
+            "name": "Mugwump to Spitzee Shortcut",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 144.97,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370900933
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:57.361Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2022-01-04T20:07:41.938Z",
+            "lastGroomedManualClass": "fourDaysAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "hide": true,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370900933,
+                    "timestamp": "2023-04-05T23:55:29.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f52d1fdc6f0aa78102",
+            "name": "Torresan's Cabin Loop",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 133.45,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 133.45,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                383107911
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:57.454Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": "2023-04-17T17:52:22.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2022-03-28T05:59:16.511Z",
+            "lastGroomedManualClass": "fourDaysAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "hide": true,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 383107911,
+                    "timestamp": "2023-04-17T17:52:22.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f52d1fdc6f0aa78104",
+            "name": "Pipeline",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 164.35,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                378778336,
+                902856267
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:57.549Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "manual": false,
+            "lastGroomedManual": "2022-03-28T05:59:16.511Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 378778336,
+                    "timestamp": "2023-04-14T17:06:22.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856267,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f52d1fdc6f0aa78106",
+            "name": "Hemlock",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 2577.68,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                650364933,
+                755514499,
+                902856306,
+                914915779
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:57.640Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2022-03-26T02:42:00.000Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 650364933,
+                    "timestamp": "2023-04-12T22:14:58.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 755514499,
+                    "timestamp": "2023-04-12T22:36:18.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856306,
+                    "timestamp": "2023-04-12T22:04:35.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 914915779,
+                    "timestamp": "2023-04-14T16:50:39.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f52d1fdc6f0aa78108",
+            "name": "Adventure Trail",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "cl",
+            "description": "",
+            "distance": 783.27,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370909952,
+                774861063,
+                774861064,
+                774861065
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:57.732Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": true,
+            "lastGroomedManual": "2023-04-02T17:16:47.339Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "hazard": false,
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "groomingType": "1trck",
+            "routeType": "",
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "trackSet": false,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370909952,
+                    "timestamp": "2023-04-02T17:16:47.339Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 774861063,
+                    "timestamp": "2023-04-02T17:16:47.339Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 774861064,
+                    "timestamp": "2023-04-02T17:16:47.339Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 774861065,
+                    "timestamp": "2023-04-02T17:16:47.339Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f52d1fdc6f0aa7810a",
+            "name": "Jeldness",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 2396.4,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370905658,
+                370908183,
+                377814488,
+                902856263,
+                902856264,
+                902856265,
+                902856266,
+                902856288,
+                902856289,
+                902856294,
+                902856299,
+                902856300,
+                902856301,
+                902856302
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:57.829Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2022-03-29T14:52:09.036Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "elevationProfileDisable": false,
+            "routeType": "trail",
+            "groomingNotes": "",
+            "elevationProfileOrder": false,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370905658,
+                    "timestamp": "2023-04-14T17:17:15.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 370908183,
+                    "timestamp": "2023-04-14T17:16:16.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 377814488,
+                    "timestamp": "2023-04-12T22:34:45.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856263,
+                    "timestamp": "2023-04-14T17:13:05.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856264,
+                    "timestamp": "2023-04-14T17:13:05.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856265,
+                    "timestamp": "2023-04-14T17:13:05.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856266,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856288,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856289,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856294,
+                    "timestamp": "2023-04-14T17:17:15.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856299,
+                    "timestamp": "2023-04-14T16:58:09.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856300,
+                    "timestamp": "2023-04-14T16:58:09.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856301,
+                    "timestamp": "2023-04-14T16:58:09.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856302,
+                    "timestamp": "2023-04-12T23:19:24.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa7810c",
+            "name": "Striders",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "cl",
+            "description": "",
+            "distance": 459.68,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                377814590,
+                757094110,
+                902856293
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.005Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": true,
+            "lastGroomedManual": "2023-04-02T17:16:47.339Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 377814590,
+                    "timestamp": "2023-04-02T17:16:47.339Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 757094110,
+                    "timestamp": "2023-04-02T17:16:47.339Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856293,
+                    "timestamp": "2023-04-02T17:16:47.339Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa7810e",
+            "name": "Gold Hill",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 143.25,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370923935
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.154Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2022-09-16T21:53:08.604Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370923935,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa78110",
+            "name": "Copper Jack",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 599.31,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 599.31,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370897809
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.253Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "manual": false,
+            "lastGroomedManual": "2022-09-16T21:53:08.604Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "lastGroomed": "2023-03-16T15:29:18.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370897809,
+                    "timestamp": "2023-03-16T15:29:18.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa78112",
+            "name": "Beaver Pond Hill",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 204.89,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370916645
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.358Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "groomingNotes": "",
+            "hazard": false,
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "manual": false,
+            "lastGroomedManual": "2022-10-14T20:17:17.090Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370916645,
+                    "timestamp": "2023-04-12T22:34:45.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa78114",
+            "name": "Gibbard's",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 5796.44,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370912408,
+                377815245,
+                378778333,
+                378778338,
+                390561918,
+                650364939,
+                758593682,
+                758593683,
+                902856286,
+                902856295,
+                902856296,
+                902856297,
+                902856298,
+                902856303,
+                902856304,
+                902856305,
+                902856309,
+                902856310,
+                902856311,
+                902856550,
+                1001530189,
+                1001530192,
+                1001530193,
+                1027132324
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.459Z",
+            "manual": false,
+            "lastGroomedManual": "2022-11-17T15:09:00.000Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "lastGroomedManualClass": "fourDaysAgo",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370912408,
+                    "timestamp": "2023-04-17T17:59:12.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 377815245,
+                    "timestamp": "2023-04-17T17:45:04.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 378778333,
+                    "timestamp": "2023-04-17T17:59:12.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 378778338,
+                    "timestamp": "2023-04-17T17:55:53.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 390561918,
+                    "timestamp": "2023-04-17T17:59:12.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 650364939,
+                    "timestamp": "2023-04-17T17:59:12.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 758593682,
+                    "timestamp": "2023-04-14T15:14:08.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 758593683,
+                    "timestamp": "2023-04-06T00:13:14.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856286,
+                    "timestamp": "2023-04-17T17:59:12.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856295,
+                    "timestamp": "2023-04-17T17:55:53.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856296,
+                    "timestamp": "2023-04-17T17:55:53.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856297,
+                    "timestamp": "2023-04-17T17:55:53.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856298,
+                    "timestamp": "2023-04-17T17:52:22.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856303,
+                    "timestamp": "2023-04-17T17:52:22.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856304,
+                    "timestamp": "2023-04-17T17:48:46.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856305,
+                    "timestamp": "2023-04-17T17:52:22.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856309,
+                    "timestamp": "2023-04-17T17:48:46.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856310,
+                    "timestamp": "2023-04-17T17:45:04.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856311,
+                    "timestamp": "2023-04-17T17:45:04.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856550,
+                    "timestamp": "2023-04-17T17:39:53.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530189,
+                    "timestamp": "2023-04-17T18:03:28.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530192,
+                    "timestamp": "2023-04-17T17:55:53.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530193,
+                    "timestamp": "2023-04-17T17:45:04.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132324,
+                    "timestamp": "2023-04-17T17:55:53.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa78116",
+            "name": "Spitzee",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 1302.34,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 1302.34,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370901677
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.559Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": "2023-04-06T00:00:57.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2022-02-13T01:07:00.000Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "hazard": false,
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370901677,
+                    "timestamp": "2023-04-06T00:00:57.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa78118",
+            "name": "Terrain Park Trail",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 121.29,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370911561
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.662Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": true,
+            "lastGroomedManual": "2023-04-02T17:16:47.339Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370911561,
+                    "timestamp": "2023-04-02T17:16:47.339Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa7811a",
+            "name": "Tim's Trail",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 581.92,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 581.92,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370910856,
+                902856277
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.759Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": "2023-04-14T17:28:59.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2022-03-28T05:59:16.511Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "hazard": false,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370910856,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856277,
+                    "timestamp": "2023-04-14T17:24:58.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa7811c",
+            "name": "Morning Star",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 487.43,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370913253,
+                370913564,
+                902856274,
+                902856275,
+                902856276
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.851Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "manual": false,
+            "lastGroomedManual": "2022-03-23T16:31:44.983Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "hazard": false,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370913253,
+                    "timestamp": "2023-04-14T17:06:22.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 370913564,
+                    "timestamp": "2023-04-14T17:06:22.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856274,
+                    "timestamp": "2023-04-14T17:13:05.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856275,
+                    "timestamp": "2023-04-14T17:30:48.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856276,
+                    "timestamp": "2023-04-14T17:30:48.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f62d1fdc6f0aa7811e",
+            "name": "Jeldness to Tim's Trail",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 54.68,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370911156
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:58.949Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2022-03-29T14:52:09.036Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "hide": true,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370911156,
+                    "timestamp": "2023-04-06T00:14:25.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa78120",
+            "name": "Boomer",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 617.79,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370892933
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.050Z",
+            "hazard": false,
+            "manual": false,
+            "lastGroomedManual": "2022-03-29T14:52:09.036Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370892933,
+                    "timestamp": "2023-04-14T16:40:46.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa78122",
+            "name": "Rawhide",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 956.09,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370893389
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.144Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2022-03-29T14:52:09.036Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370893389,
+                    "timestamp": "2023-04-14T16:57:04.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa78124",
+            "name": "Mugwump",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 2676.86,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                320155169,
+                320155170,
+                370898932,
+                450035606
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.248Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2022-01-04T20:07:41.938Z",
+            "groomingNotes": "",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "hazard": false,
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 320155169,
+                    "timestamp": "2023-04-05T23:56:26.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 320155170,
+                    "timestamp": "2023-04-05T23:56:26.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 370898932,
+                    "timestamp": "2023-04-06T00:04:24.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 450035606,
+                    "timestamp": "2023-04-05T23:58:54.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa78126",
+            "name": "George's Trail",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 582.55,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                306757682,
+                902856337,
+                902856338
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.355Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": true,
+            "lastGroomedManual": "2023-05-07T15:00:00.000Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "hazard": false,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 306757682,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856337,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856338,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa78128",
+            "name": "Roger's Route (Aqueduct)",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "cl",
+            "description": "",
+            "distance": 3230.49,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370891121,
+                370923916,
+                902856307
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.448Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": false,
+            "lastGroomedManual": "2023-04-02T17:16:47.339Z",
+            "hazard": false,
+            "groomingNotes": "",
+            "lastGroomedManualClass": "tenDaysAgo",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370891121,
+                    "timestamp": "2023-04-14T17:27:03.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 370923916,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856307,
+                    "timestamp": "2023-04-14T16:34:57.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa7812a",
+            "name": "Loggers",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 953.12,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370897057
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.552Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "manual": false,
+            "lastGroomedManual": "2022-03-28T05:59:16.511Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "hazard": false,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370897057,
+                    "timestamp": "2023-04-14T16:58:09.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa7812c",
+            "name": "Expresso",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 982.41,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370894037,
+                902856308,
+                1119070768,
+                1119070769
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.652Z",
+            "hazard": false,
+            "manual": false,
+            "lastGroomedManual": "2022-03-29T14:52:09.036Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370894037,
+                    "timestamp": "2023-04-11T21:25:22.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856308,
+                    "timestamp": "2023-04-11T21:17:01.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1119070768,
+                    "timestamp": "2023-04-11T21:22:41.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1119070769,
+                    "timestamp": "2023-04-11T21:22:41.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa7812e",
+            "name": "Fisher's Loop",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 1057.85,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                370909206,
+                370909579,
+                370909757,
+                902856269,
+                902856270,
+                902856271,
+                1001530190,
+                1001530191,
+                1001530196,
+                1027132318,
+                1027132319,
+                1027132320,
+                1027132321
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.766Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2022-03-29T14:52:09.036Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "hazard": false,
+            "groomingNotes": "",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370909206,
+                    "timestamp": "2023-04-09T16:20:46.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 370909579,
+                    "timestamp": "2023-04-14T17:23:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 370909757,
+                    "timestamp": "2023-04-14T17:24:58.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856269,
+                    "timestamp": "2023-04-14T17:32:47.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856270,
+                    "timestamp": "2023-04-14T17:23:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856271,
+                    "timestamp": "2023-04-13T00:17:32.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530190,
+                    "timestamp": "2023-04-13T00:24:54.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530191,
+                    "timestamp": "2023-04-13T00:24:54.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530196,
+                    "timestamp": "2023-04-14T17:23:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132318,
+                    "timestamp": "2023-04-13T00:17:32.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132319,
+                    "timestamp": "2023-04-14T17:24:58.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132320,
+                    "timestamp": "2023-04-13T00:26:10.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132321,
+                    "timestamp": "2023-04-02T15:32:30.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa78130",
+            "name": "Unnamed Trails",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 835.01,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 835.01,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                306757659,
+                306757660,
+                306757661,
+                306757662,
+                763470223,
+                763470224,
+                902856323,
+                902856341,
+                1005699761,
+                1027132322,
+                1027132323
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.880Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "lastGroomed": "2023-04-23T16:09:06.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2023-03-03T16:44:02.342Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 306757659,
+                    "timestamp": "2023-04-23T15:51:16.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 306757660,
+                    "timestamp": "2023-04-23T15:49:38.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 306757661,
+                    "timestamp": "2023-04-22T14:30:13.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 306757662,
+                    "timestamp": "2023-04-23T15:54:15.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 763470223,
+                    "timestamp": "2023-04-23T16:08:41.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 763470224,
+                    "timestamp": "2023-04-23T16:09:06.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856323,
+                    "timestamp": "2023-04-23T16:09:06.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856341,
+                    "timestamp": "2023-04-23T16:05:47.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699761,
+                    "timestamp": "2023-04-23T16:09:06.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132322,
+                    "timestamp": "2023-04-06T00:14:31.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132323,
+                    "timestamp": "2023-04-17T17:55:53.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f72d1fdc6f0aa78132",
+            "name": "Trigger",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 792.12,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 792.12,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                225121811,
+                1005699755
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:25:59.981Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "lastGroomed": "2023-04-23T15:50:47.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2023-04-22T15:10:49.295Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 225121811,
+                    "timestamp": "2023-04-23T15:50:47.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699755,
+                    "timestamp": "2023-04-23T15:50:47.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f82d1fdc6f0aa78134",
+            "name": "Biathlon Loop",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 225.32,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                306757663,
+                902856321
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:00.073Z",
+            "hazard": false,
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2023-05-06T15:00:07.000Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 306757663,
+                    "timestamp": "2023-04-23T15:54:15.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856321,
+                    "timestamp": "2023-04-12T17:01:15.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f82d1fdc6f0aa78136",
+            "name": "Tall Timbers (Adaptive)",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 1811.01,
+                    "percent": 90.14
+                }
+            ],
+            "open": false,
+            "trackType": "cl",
+            "description": "",
+            "distance": 2009.19,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                1005452079,
+                267006013,
+                1005449516,
+                1005699753
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "route",
+            "createdAt": "2021-12-14T22:26:00.145Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "manual": true,
+            "lastGroomedManual": "2023-04-23T16:14:51.441Z",
+            "lastGroomed": "2023-04-23T16:09:06.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "routeType": "trail",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "groomingType": "2trck",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 1005449516,
+                    "timestamp": "2023-04-23T16:14:51.441Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699753,
+                    "timestamp": "2023-04-23T16:14:51.441Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005452079,
+                    "timestamp": "2023-04-23T16:14:51.441Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f82d1fdc6f0aa78138",
+            "name": "Bullseye",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 456.33,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 456.33,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                216284687,
+                902856334,
+                902856335
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:00.223Z",
+            "hazard": false,
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": "2023-04-23T15:54:15.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2023-03-03T16:44:02.342Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 216284687,
+                    "timestamp": "2023-04-23T15:54:15.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856334,
+                    "timestamp": "2023-04-23T15:47:38.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856335,
+                    "timestamp": "2023-04-23T15:54:15.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f82d1fdc6f0aa78154",
+            "name": "Richie's Loop (Dog Loop)",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 2038.13,
+            "lit": false,
+            "dog": true,
+            "waypoints": [
+                370915000,
+                394282485,
+                394282486,
+                902856278,
+                902856279,
+                902856281,
+                902856283,
+                902856285,
+                1027132313,
+                1027132314,
+                1027132315,
+                1027132316,
+                1027132317
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:00.657Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "lastGroomedManual": "2022-12-31T02:29:19.851Z",
+            "lastGroomedManualClass": "sevenDaysAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 370915000,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 394282485,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 394282486,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856278,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856279,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856281,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856283,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856285,
+                    "timestamp": "2023-03-12T15:04:01.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132313,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132314,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132315,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132316,
+                    "timestamp": "2023-04-13T00:36:33.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1027132317,
+                    "timestamp": "2023-04-13T00:31:19.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f92d1fdc6f0aa78156",
+            "name": "Biathlon Loop East",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 1967.44,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                844084081,
+                902856325,
+                902856326,
+                902856327,
+                902856328,
+                902856329,
+                902856330,
+                902856331,
+                902856332,
+                902856336,
+                1005699754,
+                1005699756,
+                1005699757
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:01.491Z",
+            "hazard": false,
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": true,
+            "lastGroomedManual": "2023-05-07T15:00:00.000Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 844084081,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856325,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856326,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856327,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856328,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856329,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856330,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856331,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856332,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856336,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699754,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699756,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699757,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f92d1fdc6f0aa78158",
+            "name": "Tall Timbers (Adaptive)",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 1811.01,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "cl",
+            "description": "",
+            "distance": 1811.01,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                1005449516,
+                1005699753,
+                1005452079
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:01.630Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hide": true,
+            "hazard": false,
+            "lastGroomed": "2023-04-23T16:09:06.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": true,
+            "groomingType": "1trck",
+            "lastGroomedManual": "2023-04-23T16:14:51.441Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 1005449516,
+                    "timestamp": "2023-04-23T16:14:51.441Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699753,
+                    "timestamp": "2023-04-23T16:14:51.441Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005452079,
+                    "timestamp": "2023-04-23T16:14:51.441Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f92d1fdc6f0aa7815a",
+            "name": "Golden Queen",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 455.41,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                902856290,
+                902856292,
+                1121087581
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:01.722Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "manual": false,
+            "lastGroomedManual": "2022-09-16T21:53:08.604Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 902856290,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856292,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1121087581,
+                    "timestamp": "2023-04-14T17:28:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f92d1fdc6f0aa7815c",
+            "name": "Reservoir",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "cl",
+            "description": "",
+            "distance": 748.06,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                450036221,
+                902856287
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:01.788Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": false,
+            "lastGroomedManual": "2023-04-02T17:16:47.339Z",
+            "lastGroomedManualClass": "tenDaysAgo",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "hazard": false,
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 450036221,
+                    "timestamp": "2023-04-14T15:14:08.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856287,
+                    "timestamp": "2023-04-14T15:10:14.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f92d1fdc6f0aa7815e",
+            "name": "High Side",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "cl",
+            "description": "",
+            "distance": 793.67,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                1005449245,
+                1005699750
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:01.893Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2023-04-02T17:16:47.339Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 1005449245,
+                    "timestamp": "2023-03-08T14:04:05.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699750,
+                    "timestamp": "2023-04-23T16:05:47.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919f92d1fdc6f0aa78160",
+            "name": "Ricochet",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 313.76,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 313.76,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                754473886
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:01.983Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "manual": false,
+            "lastGroomedManual": "2023-03-03T16:44:02.342Z",
+            "lastGroomedManualClass": "today",
+            "lastGroomed": "2023-04-17T16:35:39.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 754473886,
+                    "timestamp": "2023-04-17T16:35:39.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919fa2d1fdc6f0aa78162",
+            "name": "Iron Sights",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 718.95,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                753774985,
+                1001524990
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:02.048Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": true,
+            "lastGroomedManual": "2023-05-07T15:00:00.000Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 753774985,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001524990,
+                    "timestamp": "2023-05-07T15:00:00.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919fa2d1fdc6f0aa78166",
+            "name": "Stadium Loop",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 64.07,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 64.07,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                383107910
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:02.184Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": "2023-04-13T00:26:10.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2022-03-28T05:59:16.511Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "hazard": false,
+            "hide": true,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 383107910,
+                    "timestamp": "2023-04-13T00:26:10.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919fa2d1fdc6f0aa78168",
+            "name": "The Grid",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 258.94,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 258.94,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                755557561
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:02.248Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": "2023-04-09T14:30:35.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2022-03-28T05:59:16.511Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "hide": true,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 755557561,
+                    "timestamp": "2023-04-09T14:30:35.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61b919fa2d1fdc6f0aa781c9",
+            "name": "Biathlon Loop West",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 1300.47,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 1300.47,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                844084079,
+                844084080,
+                902856315,
+                902856317,
+                902856318,
+                902856319,
+                902856320,
+                1005699751,
+                1005699752,
+                1005699760,
+                267006013
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2021-12-14T22:26:02.840Z",
+            "hazard": false,
+            "manual": false,
+            "lastGroomedManual": "2023-04-19T18:43:11.307Z",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "lastGroomed": "2023-04-23T16:10:29.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "lastGroomedManualClass": "oneDayAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 844084079,
+                    "timestamp": "2023-04-23T16:09:06.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 844084080,
+                    "timestamp": "2023-04-23T15:34:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856315,
+                    "timestamp": "2023-04-23T15:34:59.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856317,
+                    "timestamp": "2023-04-23T16:08:41.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856318,
+                    "timestamp": "2023-04-23T16:08:41.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856319,
+                    "timestamp": "2023-04-23T16:10:29.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 902856320,
+                    "timestamp": "2023-04-23T16:10:29.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699751,
+                    "timestamp": "2023-04-23T15:37:41.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699752,
+                    "timestamp": "2023-04-23T16:08:17.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1005699760,
+                    "timestamp": "2023-04-23T15:37:41.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 267006013,
+                    "timestamp": "2023-04-23T16:14:51.441Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61c17cba9619513f2dd5a8ae",
+            "name": "Ophir",
+            "piste:difficulty": "advanced",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 2098.29,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                757999836,
+                763448701,
+                1001530187,
+                1001530188
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2021-12-21T07:05:30.223Z",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "manual": false,
+            "lastGroomedManual": "2022-12-26T16:37:06.822Z",
+            "lastGroomedManualClass": "oneDayAgo",
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "hazard": false,
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 757999836,
+                    "timestamp": "2023-04-05T23:03:41.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 763448701,
+                    "timestamp": "2023-02-23T12:35:43.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530187,
+                    "timestamp": "2023-04-04T20:41:11.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                },
+                {
+                    "id": 1001530188,
+                    "timestamp": "2023-04-04T20:45:47.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61fb1ba3113f8522881fc6e8",
+            "name": "Biathlon Parking Lot",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 8.55,
+                    "percent": 100
+                }
+            ],
+            "open": false,
+            "trackType": "",
+            "description": "",
+            "distance": 8.55,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                1022753796
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "createdAt": "2022-02-03T00:02:43.443Z",
+            "lastGroomed": "2023-04-22T15:08:45.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "manual": false,
+            "lastGroomedManual": "2023-03-03T16:44:02.342Z",
+            "lastGroomedManualClass": "today",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 1022753796,
+                    "timestamp": "2023-04-22T15:08:45.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "61fb1ba5113f8522881fc78f",
+            "name": "Gibbard's to Jeldness",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 79.9,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                379974577
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "createdAt": "2022-02-03T00:02:45.441Z",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "fatbike": false,
+            "multiuseDashed": false,
+            "snowshoe": false,
+            "elevationProfile": [],
+            "elevationProfileStats": [],
+            "events": [],
+            "manual": false,
+            "lastGroomedManual": "2022-03-29T14:52:09.036Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "hide": true,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 379974577,
+                    "timestamp": "2023-04-14T17:16:16.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "638a9e91d1276d0993709646",
+            "name": "Biathlon Access",
+            "piste:difficulty": "easy",
+            "waypointsLastGroomedGroups": [
+                {
+                    "id": "twoWeeksAgo",
+                    "distance": 339.27,
+                    "percent": 100
+                }
+            ],
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 339.27,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                306757678
+            ],
+            "group": "HannaCreekBiathlon",
+            "type": "trail",
+            "multiuseDashed": false,
+            "fatbike": false,
+            "snowshoe": false,
+            "elevationProfileStats": [],
+            "elevationProfile": [],
+            "events": [],
+            "createdAt": "2022-12-03T00:55:45.539Z",
+            "lastGroomed": "2023-04-23T15:35:50.000Z",
+            "lastGroomedClass": "twoWeeksAgo",
+            "manual": false,
+            "lastGroomedManual": "2023-03-03T16:44:02.342Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 306757678,
+                    "timestamp": "2023-04-23T15:35:50.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "638bda2ad1276d099374e504",
+            "name": "Little Rock",
+            "piste:difficulty": "intermediate",
+            "waypointsLastGroomedGroups": [],
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "open": false,
+            "trackType": "sk-cl",
+            "description": "",
+            "distance": 1611.39,
+            "lit": false,
+            "dog": true,
+            "waypoints": [
+                1091303266
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "multiuseDashed": false,
+            "fatbike": false,
+            "snowshoe": false,
+            "elevationProfileStats": [],
+            "elevationProfile": [],
+            "events": [],
+            "createdAt": "2022-12-03T23:22:18.107Z",
+            "manual": true,
+            "lastGroomedManual": "2023-04-02T17:16:47.339Z",
+            "lastGroomedManualClass": "twoWeeksAgo",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 1091303266,
+                    "timestamp": "2023-04-02T17:16:47.339Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        },
+        {
+            "_id": "638bda2ad1276d099374e505",
+            "name": "Little Rock Parking Lot",
+            "waypointsLastGroomedGroups": [],
+            "waypointsLastGroomedGroupsTrackSet": [],
+            "open": false,
+            "trackType": "",
+            "description": "",
+            "distance": 14.99,
+            "lit": false,
+            "dog": false,
+            "waypoints": [
+                1119263204
+            ],
+            "group": "BlackJackMainNetwork",
+            "type": "trail",
+            "multiuseDashed": false,
+            "fatbike": false,
+            "snowshoe": false,
+            "elevationProfileStats": [],
+            "elevationProfile": [],
+            "events": [],
+            "createdAt": "2022-12-03T23:22:18.108Z",
+            "lastGroomed": null,
+            "lastGroomedClass": "not-groomed",
+            "elevationProfileDisable": false,
+            "lastGroomedManual": null,
+            "lastGroomedManualClass": "",
+            "manual": false,
+            "waypointsLastGroomedRendered": [
+                {
+                    "id": 1119263204,
+                    "timestamp": "2023-04-02T14:57:04.000Z",
+                    "14d": "twoWeeksAgo",
+                    "7d": "twoWeeksAgo",
+                    "4d": "twoWeeksAgo",
+                    "36h": "twoWeeksAgo",
+                    "24h": "twoWeeksAgo",
+                    "12h": "twoWeeksAgo"
+                }
+            ],
+            "waypointsLastGroomedTrackSetRendered": [],
+            "lastGroomedTrackSet": "2021-01-08T15:36:05.000Z",
+            "lastGroomedTrackSetClass": "not-groomed"
+        }
+    ],
+    "reports": [],
+    "markers": [],
+    "logs": []
+}
