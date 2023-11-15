@@ -113,20 +113,10 @@ var mainGridOptions = {
                 }
               
               const date = new Date(lastGroomed)
-              const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-              const month = monthNames[date.getUTCMonth()];
-              const day = date.getUTCDate();
-              let hours = date.getUTCHours();
-              const minutes = date.getUTCMinutes();
-              const ampm = hours >= 12 ? 'PM' : 'AM';
-      
-              if (hours > 12) {
-                hours -= 12;
-              }
           
               return `
                 <div class="grooming-cell">
-                  <div>${month} ${day} ${hours}:${minutes.toString().padStart(2, '0')}${ampm}</div>
+                  <div>${convertToLocaleTimeString(date)}</div>
                   <div class="grooming-icon ${lastGroomedClass}">O</div>
                 </div>
               `;
