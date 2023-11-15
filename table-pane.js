@@ -174,11 +174,11 @@ let trails;
           var notice = document.createElement("p")
           notice.innerHTML = noticeData[0]["content"]["en"]
           reportDiv.append(notice)
-          const noticeDate = convertToLocaleTimeString(new Date(latestReport["reportTimestamp"]))  
+          const noticeDate = convertToLocaleTimeString(new Date(noticeData[0]["updatedAt"]))  
           const noticeBylineDiv = document.createElement('div');
           noticeBylineDiv.innerHTML = `
             <div style="text-align: right; font-size: smaller">
-              Notice updated <span style="font-weight: bold;">${reportDate}</span>
+              Notice updated <span style="font-weight: bold;">${noticeDate}</span>
             </div>
           `;
           reportDiv.appendChild(noticeBylineDiv)
