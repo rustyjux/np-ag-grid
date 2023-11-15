@@ -109,7 +109,7 @@ var mainGridOptions = {
                   lastGroomedClass = params.data.lastGroomedClass;
                 }
                 } else {
-                  return '';
+                  return 'Closed 🚫';
                 }
               
               const date = new Date(lastGroomed)
