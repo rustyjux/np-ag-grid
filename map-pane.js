@@ -24,7 +24,7 @@ image.src = 'https://np-screenshot.s3.us-west-2.amazonaws.com/screenshot.png';
 
 function showLastModified() {
   // Fetch the image to get the Last-Modified header
-  fetch(image.src, { method: 'HEAD'})
+  fetch(image.src, { method: 'HEAD', mode: 'cors', cache: 'no-store'})
     .then(response => {
       const lastModified = response.headers.get('Last-Modified');
       console.log(`Map last modified: ${lastModified}`);
