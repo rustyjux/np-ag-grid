@@ -53,6 +53,5 @@ function convertToLocaleTimeString(utcTimeString) {
 
   // Format the local date as a string
   const options = { timeZone: "America/Los_Angeles", month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' };  const localTimeString = utcDate.toLocaleString('en-US', options);
-  console.log(localTimeString)
   return localTimeString;
 }

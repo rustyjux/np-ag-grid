@@ -153,16 +153,35 @@ let trails;
           fullReport = result;
           const reportDataParsed = JSON.parse(fullReport);
           const latestReport = reportDataParsed["ski-area"]["reportLatest"]
+          var latestReportContent = document.createElement("p")
+          latestReportContent.innerHTML = latestReport["reportContent"]
+          reportDiv.append(latestReportContent)
           console.log(reportDataParsed)
           console.log(latestReport)
-          
-          reportDiv.innerHTML = latestReport["reportContent"]
+          const reportDate = convertToLocaleTimeString(new Date(latestReport["reportTimestamp"]))  
+          const reportBylineDiv = document.createElement('div');
+          reportBylineDiv.innerHTML = `
+            <div style="text-align: right;">
+              Reported <span style="font-weight: bold;">${reportDate}</span> by <span style="text-transform: capitalize;">${latestReport["reportAuthor"]}</span>
+            </div>
+          `;
+          reportDiv.appendChild(reportBylineDiv)
           
           // TODO check if length of noticeData is >0
+          const horizontalLine = document.createElement('hr');
+          reportDiv.appendChild(horizontalLine);
           var noticeData = reportDataParsed["ski-area"]["reportNotices"]
           var notice = document.createElement("p")
           notice.innerHTML = noticeData[0]["content"]["en"]
           reportDiv.append(notice)
+          const noticeDate = convertToLocaleTimeString(new Date(latestReport["reportTimestamp"]))  
+          const noticeBylineDiv = document.createElement('div');
+          noticeBylineDiv.innerHTML = `
+            <div style="text-align: right; font-size: smaller">
+              Notice updated <span style="font-weight: bold;">${reportDate}</span>
+            </div>
+          `;
+          reportDiv.appendChild(noticeBylineDiv)
 
           const trails = reportDataParsed.trails.filter(item => item.hide != true);
           // Split data for main and biathlon areas

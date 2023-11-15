@@ -30,6 +30,7 @@ html, body {
     --ag-font-size: 50px;
     margin: 0pt;
     padding: 5pt;
+    padding-top: 5%;
 }
 
 #mainGrid1,
@@ -167,7 +168,13 @@ animation: spin 1s linear infinite;
     background-color: #181d1f;
     padding: 10px;
     border: 1px solid #cccccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
   }
   
+.report {
+    position: relative;
+    background-color: #222628;
+    font-size: larger;
+    border: 2px solid #cccccc;
+}
