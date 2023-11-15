@@ -69,6 +69,7 @@ var mainGridOptions = {
       },
       {
           field:"dog",
+          headerName: "",
           width: 0,        
           cellRenderer: params => {
             const dog = params.value;
