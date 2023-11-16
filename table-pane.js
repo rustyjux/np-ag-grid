@@ -12,6 +12,9 @@ const advComp = (params) => {
 var mainGridOptions = {
   domLayout: 'autoHeight',
   suppressCellFocus: true,
+  defaultColDef: {
+    suppressMovable: true,
+  },
   columnDefs: [
       {
           width: 0,
@@ -67,6 +70,17 @@ var mainGridOptions = {
         field: "name",
         initialSort: "asc"
       },
+      // {
+      //     field:"hazard",
+      //     headerName: "",
+      //     width: 0,        
+      //     cellRenderer: params => {
+      //       const hazard = params.value;
+      //       if (hazard === true){
+      //         return `⚠`
+      //       } 
+      //   }
+      // },
       {
           field:"dog",
           headerName: "",
@@ -93,7 +107,6 @@ var mainGridOptions = {
       //     headerName: "",
       //     width: 0,
       // },
-      // {field:"hazard"}, // TODO only show hazard content if true and show in "open" field?
       {
           headerName: 'Last Groomed',
           field: 'lastGroomedManual',
@@ -109,9 +122,9 @@ var mainGridOptions = {
                   lastGroomed = params.data.lastGroomed;
                   lastGroomedClass = params.data.lastGroomedClass;
                 }
-                } else {
-                  return 'Closed 🚫';
-                }
+              } else {
+                return '🚫';
+              }
               
               const date = new Date(lastGroomed)
           
@@ -136,74 +149,78 @@ var biathlonGridOptions2 = { ... mainGridOptions };
 let fullReport;
 let trails;
 
-  // setup the grid after the page has finished loading
-  document.addEventListener('DOMContentLoaded', function() {
-      var reportDiv = document.querySelector('#report');  
-      var mainGridDiv1 = document.querySelector('#mainGrid1');
-      new agGrid.Grid(mainGridDiv1, mainGridOptions1);
-      var mainGridDiv2 = document.querySelector('#mainGrid2');
-      new agGrid.Grid(mainGridDiv2, mainGridOptions2);
-      var biathlonGridDiv1 = document.querySelector('#biathlonGrid1');
-      new agGrid.Grid(biathlonGridDiv1, biathlonGridOptions1);
-      var biathlonGridDiv2 = document.querySelector('#biathlonGrid2');
-      new agGrid.Grid(biathlonGridDiv2, biathlonGridOptions2);
+// setup the grid after the page has finished loading
+document.addEventListener('DOMContentLoaded', function() {
+  var reportDiv = document.querySelector('#report');  
+  var mainGridDiv1 = document.querySelector('#mainGrid1');
+  new agGrid.Grid(mainGridDiv1, mainGridOptions1);
+  var mainGridDiv2 = document.querySelector('#mainGrid2');
+  new agGrid.Grid(mainGridDiv2, mainGridOptions2);
+  var biathlonGridDiv1 = document.querySelector('#biathlonGrid1');
+  new agGrid.Grid(biathlonGridDiv1, biathlonGridOptions1);
+  var biathlonGridDiv2 = document.querySelector('#biathlonGrid2');
+  new agGrid.Grid(biathlonGridDiv2, biathlonGridOptions2);
 
-      fetch("https://np-express.onrender.com/report")
-        .then(response => response.text())
-        .then(result => {
-          fullReport = result;
-          const reportDataParsed = JSON.parse(fullReport);
-          const latestReport = reportDataParsed["ski-area"]["reportLatest"]
-          var latestReportContent = document.createElement("p")
-          latestReportContent.innerHTML = latestReport["reportContent"]
-          reportDiv.append(latestReportContent)
-          console.log(reportDataParsed)
-          console.log(latestReport)
-          const reportDate = convertToLocaleTimeString(new Date(latestReport["reportTimestamp"]))  
-          const reportBylineDiv = document.createElement('div');
-          reportBylineDiv.innerHTML = `
-            <div style="text-align: right;">
-              Reported <span style="font-weight: bold;">${reportDate}</span> by <span style="text-transform: capitalize;">${latestReport["reportAuthor"]}</span>
-            </div>
-          `;
-          reportDiv.appendChild(reportBylineDiv)
-          
-          // TODO check if length of noticeData is >0
-          const horizontalLine = document.createElement('hr');
-          reportDiv.appendChild(horizontalLine);
-          var noticeData = reportDataParsed["ski-area"]["reportNotices"]
-          var notice = document.createElement("p")
-          notice.innerHTML = noticeData[0]["content"]["en"]
-          reportDiv.append(notice)
-          const noticeDate = convertToLocaleTimeString(new Date(noticeData[0]["updatedAt"]))  
-          const noticeBylineDiv = document.createElement('div');
-          noticeBylineDiv.innerHTML = `
-            <div style="text-align: right; font-size: smaller">
-              Notice updated <span style="font-weight: bold;">${noticeDate}</span>
-            </div>
-          `;
-          reportDiv.appendChild(noticeBylineDiv)
+  
+  fetch("https://np-express.onrender.com/report")
+    .then(response => response.text())
+    .then(result => {
+      fullReport = result;
+      const reportDataParsed = JSON.parse(fullReport);
+      const latestReport = reportDataParsed["ski-area"]["reportLatest"]
+      var latestReportContent = document.createElement("p")
+      latestReportContent.style.marginTop = "0px";
+      latestReportContent.style.marginBlockStart = "0px";
+      latestReportContent.style.marginBlockEnd = "0px";
+      latestReportContent.innerHTML = latestReport["reportContent"]
+      reportDiv.append(latestReportContent)
+      const reportDate = convertToLocaleTimeString(new Date(latestReport["reportTimestamp"]))  
+      const reportBylineDiv = document.createElement('div');
+      reportBylineDiv.innerHTML = `
+        <div style="text-align: right;">
+          Reported <span style="font-weight: bold;">${reportDate}</span> by <span style="text-transform: capitalize;">${latestReport["reportAuthor"]}</span>
+        </div>
+      `;
+      reportDiv.appendChild(reportBylineDiv)
+      
+      // TODO check if length of noticeData is >0
+      const horizontalLine = document.createElement('hr');
+      reportDiv.appendChild(horizontalLine);
+      var noticeData = reportDataParsed["ski-area"]["reportNotices"]
+      var notice = document.createElement("p")
+      notice.innerHTML = noticeData[0]["content"]["en"]
+      reportDiv.append(notice)
+      const noticeDate = convertToLocaleTimeString(new Date(noticeData[0]["updatedAt"]))  
+      const noticeBylineDiv = document.createElement('div');
+      noticeBylineDiv.innerHTML = `
+        <div style="text-align: right; font-size: smaller">
+          Notice updated <span style="font-weight: bold;">${noticeDate}</span>
+        </div>
+      `;
+      reportDiv.appendChild(noticeBylineDiv)
 
-          const trails = reportDataParsed.trails.filter(item => item.hide != true);
-          // Split data for main and biathlon areas
-          const mainAreaData = trails.filter(item => item.group === "BlackJackMainNetwork");
-          // cut each area's data in half for each column
-          const { firstHalf: mainFirstHalf, secondHalf: mainSecondHalf } = splitDataIntoHalves(mainAreaData);
-          mainGridOptions1.api.setRowData(mainFirstHalf);
-          mainGridOptions2.api.setRowData(mainSecondHalf);
+      // Filter out trails which we don't want (hidden or on named list)
+      const excludedTrailNames = ['Biathlon Access', 'Copper Jack', "Gibbard's Hill", 'Unnamed Trails'];
+      const trails = reportDataParsed.trails.filter(item => !item.hide && !excludedTrailNames.includes(item.name));
+      // Split data for main and biathlon areas
+      const mainAreaData = trails.filter(item => item.group === "BlackJackMainNetwork");
+      // cut each area's data in half for each column
+      const { firstHalf: mainFirstHalf, secondHalf: mainSecondHalf } = splitDataIntoHalves(mainAreaData);
+      mainGridOptions1.api.setRowData(mainFirstHalf);
+      mainGridOptions2.api.setRowData(mainSecondHalf);
 
-          const biathlonAreaData = trails.filter(item => item.group === "HannaCreekBiathlon");
-          const { firstHalf: biathlonFirstHalf, secondHalf: biathlonSecondHalf } = splitDataIntoHalves(biathlonAreaData);
-          biathlonGridOptions1.api.setRowData(biathlonFirstHalf);
-          biathlonGridOptions2.api.setRowData(biathlonSecondHalf);
+      const biathlonAreaData = trails.filter(item => item.group === "HannaCreekBiathlon");
+      const { firstHalf: biathlonFirstHalf, secondHalf: biathlonSecondHalf } = splitDataIntoHalves(biathlonAreaData);
+      biathlonGridOptions1.api.setRowData(biathlonFirstHalf);
+      biathlonGridOptions2.api.setRowData(biathlonSecondHalf);
 
-          gridsOptionsList = [mainGridOptions1, mainGridOptions2, biathlonGridOptions1, biathlonGridOptions2];
-          gridsOptionsList.forEach(gridOptions => {
-            sizeToFit(gridOptions);
-          });
-          
-        })
-        .catch(error => console.log('error', error));
+      gridsOptionsList = [mainGridOptions1, mainGridOptions2, biathlonGridOptions1, biathlonGridOptions2];
+      gridsOptionsList.forEach(gridOptions => {
+        sizeToFit(gridOptions);
+      });
+      
+    })
+    .catch(error => console.log('error', error));
   });
   
 function splitDataIntoHalves(data) {
@@ -249,7 +266,7 @@ function sizeToFit(gridOptions) {
     columnLimits: [
       { key: 'name', minWidth: 10 },
       { key: 'distance', maxWidth: 110 },
-      { key: 'open', maxWidth: 0 },
+      // { key: 'open', maxWidth: 0 },
       { key: 'lastGroomedManual', minWidth: 160 }
     ],
   });

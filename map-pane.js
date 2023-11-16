@@ -11,9 +11,10 @@ image.onload = function() {
   loadingSpinner.style.display = 'none';
 
   image.width = 1070;
-
+  
   // Append the loaded image to the div
   const mapDiv = document.getElementById('map');
+  mapDiv.classList.add("hidden");
   mapDiv.appendChild(image);
   // Add info box to show Last-Modified header
   showLastModified();
@@ -27,13 +28,12 @@ function showLastModified() {
   fetch(image.src, { method: 'HEAD', mode: 'cors', cache: 'no-store'})
     .then(response => {
       const lastModified = response.headers.get('Last-Modified');
-      console.log(`Map last modified: ${lastModified}`);
     
       if (lastModified) {
         const localLastModified = convertToLocaleTimeString(lastModified);
         // Create an info box element
         const infoBox = document.createElement('div');
-        infoBox.className = 'info-box';
+        infoBox.className = 'last-modified info-box';
         infoBox.innerHTML = `Last updated: ${localLastModified}`;
 
         // Append the info box to the body or any other container
