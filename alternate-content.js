@@ -18,7 +18,9 @@ window.onload = function() {
 };
 
 function timedRefresh(timeout) {
+  console.log("Refreshing page in " + (timeout / 1000) + " seconds.");
+
   setTimeout(function() {
-      location.reload(true);
+      location.reload();
   }, timeout);
 }
