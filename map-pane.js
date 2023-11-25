@@ -40,13 +40,7 @@ fetch(imageUrl, { method: 'GET', mode: 'cors', cache: 'no-store' })
 
 function convertToLocaleTimeString(utcTimeString) {
   const utcDate = new Date(utcTimeString);
-
-  // Convert to local time (GMT-8)
-  const localTimeOffset = -8 * 60; // GMT-8 in minutes
-  const localDate = new Date(utcDate.getTime() + localTimeOffset * 60 * 1000);
-
-  // Format the local date as a string
   const options = { timeZone: "America/Los_Angeles", month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' };
-  const localTimeString = localDate.toLocaleString('en-US', options);
+  const localTimeString = utcDate.toLocaleString('en-US', options);
   return localTimeString;
 }

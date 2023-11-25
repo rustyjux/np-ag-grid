@@ -165,10 +165,6 @@ animation: spin 1s linear infinite;
     overflow: hidden; 
 }
 
-.last-modified {
-    position: fixed;
-  }
-
 .info-box {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     color: white;
@@ -179,8 +175,18 @@ animation: spin 1s linear infinite;
     border: 1px solid #cccccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-  }
-  
+}
+
+.last-modified {
+    position: fixed;
+    top: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999; /* Add a z-index to ensure it's above other elements */
+    max-width: 250px; /* Adjust the max-width as needed */
+    width: 100%; /* Ensures the box takes the available width up to the max-width */
+}
+
 .report {
     /* position: relative; */
     background-color: #222628;
