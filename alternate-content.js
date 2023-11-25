@@ -13,13 +13,10 @@ function timedRefresh(timeoutPeriod) {
 }
 
 window.onload = function() {
-  timedRefresh(30000); // reload after 20 sec for testing
-  // timedRefresh(600000); // reload page every 10 minutes
+  timedRefresh(600000); // reload page every 10 minutes
 };
 
 function timedRefresh(timeout) {
-  console.log("Refreshing page in " + (timeout / 1000) + " seconds.");
-
   setTimeout(function() {
       location.reload();
   }, timeout);
