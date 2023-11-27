@@ -6,7 +6,7 @@ setInterval(function() {
   currentIndex = (currentIndex + 1) % contentElements.length;
   var nextElement = contentElements[currentIndex];
   nextElement.classList.remove("hidden");
-}, 20000); // time to hold each view
+}, 60000); // time to hold each view
 
 function timedRefresh(timeoutPeriod) {
     setTimeout("location.reload(true);",timeoutPeriod);

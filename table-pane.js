@@ -20,7 +20,7 @@ var mainGridOptions = {
           width: 0,
           headerName: "", 
           field: "piste:difficulty", 
-          initialSort: "asc", // TODO create custom sort order for difficulty
+          initialSort: "asc", 
           comparator: (valueA, valueB, nodeA, nodeB, isInverted) => {
             // Define your custom sort order
             const customSortOrder = ['easy', 'intermediate', 'advanced'];
@@ -48,7 +48,8 @@ var mainGridOptions = {
               if (p.value === "advanced") {
                   return {component: advComp}
               }
-          }
+          },
+          cellClass: "no-ellipsis",
       },
       // {
       //   field: "name",
@@ -89,11 +90,13 @@ var mainGridOptions = {
             const dog = params.value;
             if (dog === true){
               return `<ion-icon class="difficulty-icon" name="paw"></ion-icon>`;
-            } 
-        }
+            }
+          },
+          cellClass: "no-ellipsis",
       },
       {
           field: "distance",
+          headerName: "",
           cellRenderer: params => {
               const meters = params.value;
               const kilometers = (meters / 1000).toFixed(1); // Convert to kilometers and round to 1 decimal place
@@ -123,7 +126,7 @@ var mainGridOptions = {
                   lastGroomedClass = params.data.lastGroomedClass;
                 }
               } else {
-                return '🚫';
+                return `<ion-icon style="font-size: 20px;" name="close-circle-outline"></ion-icon>`;
               }
               
               const date = new Date(lastGroomed)
@@ -280,10 +283,12 @@ function sizeToFit(gridOptions) {
   gridOptions.api.sizeColumnsToFit({
     // defaultMinWidth: 100,
     columnLimits: [
+      { key: 'piste:difficulty', minWidth: 35 },
       { key: 'name', minWidth: 10 },
-      { key: 'distance', maxWidth: 110 },
+      { key: 'dog', minWidth: 35 },
+      { key: 'distance', maxWidth: 90 },
       // { key: 'open', maxWidth: 0 },
-      { key: 'lastGroomedManual', minWidth: 160 }
+      { key: 'lastGroomedManual', minWidth: 170 }
     ],
   });
 };

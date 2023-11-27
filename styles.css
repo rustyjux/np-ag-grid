@@ -27,6 +27,8 @@ html, body {
 
 .ag-theme-custom {
     --ag-font-size: 16px;
+    --ag-cell-horizontal-padding: calc(var(--ag-grid-size)*1.5);
+    /* --ag-cell-horizontal-padding: 1px; */
 }
 
 .custom-headers{
@@ -63,6 +65,7 @@ html, body {
   }
 
 .difficulty-icon {
+    padding-left: 3px;
     font-size: larger;
 }
 .difficulty-icon.icon-easy {
@@ -87,6 +90,11 @@ html, body {
     /* --ionicon-stroke-width: 50px; */
 }
 
+.ag-cell.no-ellipsis {
+    white-space: normal !important; /* Set white-space to normal */
+    overflow: visible !important;   /* Ensure content is fully visible */
+    text-overflow: clip !important; /* Disable ellipsis */
+  }
 
 .grooming-cell {
     display: flex;
