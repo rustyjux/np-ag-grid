@@ -143,8 +143,24 @@ var mainGridOptions = {
 
 var mainGridOptions1 = { ...mainGridOptions };
 var mainGridOptions2 = { ...mainGridOptions };
-var biathlonGridOptions1 = { ... mainGridOptions };
-var biathlonGridOptions2 = { ... mainGridOptions };
+
+// Clone the mainGridOptions to avoid modifying it directly
+var biathlonGridOptions = { ...mainGridOptions };
+
+// Find the index of the "dog" column in the columnDefs array
+const dogColumnIndex = biathlonGridOptions.columnDefs.findIndex(
+  (column) => column.field === 'dog'
+);
+
+// If the "dog" column exists, remove it using slice
+if (dogColumnIndex !== -1) {
+  biathlonGridOptions.columnDefs = [
+    ...biathlonGridOptions.columnDefs.slice(0, dogColumnIndex),
+    ...biathlonGridOptions.columnDefs.slice(dogColumnIndex + 1),
+  ];
+}
+var biathlonGridOptions1 = { ... biathlonGridOptions };
+var biathlonGridOptions2 = { ... biathlonGridOptions };
   
 let fullReport;
 let trails;

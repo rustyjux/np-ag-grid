@@ -25,6 +25,10 @@ html, body {
     display: flex;
 }
 
+.ag-theme-custom {
+    --ag-font-size: 16px;
+}
+
 .custom-headers{
     --ag-foreground-color: #f7efff;
     --ag-font-size: 50px;
