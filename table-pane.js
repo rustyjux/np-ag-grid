@@ -88,8 +88,15 @@ var mainGridOptions = {
           width: 0,        
           cellRenderer: params => {
             const dog = params.value;
+            const trackType = params.data.trackType
             if (dog === true){
               return `<ion-icon class="difficulty-icon" name="paw"></ion-icon>`;
+            }
+            if (trackType === "cl"){
+              return `<img src="assets/classic-icon.svg" alt="Classic only icon" height="25px" style="margin-top:8px">`
+              // return `<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+              //           <image href="assets/classic-icon.svg" width="20" height="20"/>
+              //         </svg>`;
             }
           },
           cellClass: "no-ellipsis",
@@ -147,21 +154,22 @@ var mainGridOptions = {
 var mainGridOptions1 = { ...mainGridOptions };
 var mainGridOptions2 = { ...mainGridOptions };
 
-// Clone the mainGridOptions to avoid modifying it directly
 var biathlonGridOptions = { ...mainGridOptions };
 
-// Find the index of the "dog" column in the columnDefs array
-const dogColumnIndex = biathlonGridOptions.columnDefs.findIndex(
-  (column) => column.field === 'dog'
-);
+// OPTION: Remove the "dog" column from the biathlonGridOptions
 
-// If the "dog" column exists, remove it using slice
-if (dogColumnIndex !== -1) {
-  biathlonGridOptions.columnDefs = [
-    ...biathlonGridOptions.columnDefs.slice(0, dogColumnIndex),
-    ...biathlonGridOptions.columnDefs.slice(dogColumnIndex + 1),
-  ];
-}
+// // Find the index of the "dog" column in the columnDefs array
+// const dogColumnIndex = biathlonGridOptions.columnDefs.findIndex(
+//   (column) => column.field === 'dog'
+// );
+
+// // If the "dog" column exists, remove it using slice
+// if (dogColumnIndex !== -1) {
+//   biathlonGridOptions.columnDefs = [
+//     ...biathlonGridOptions.columnDefs.slice(0, dogColumnIndex),
+//     ...biathlonGridOptions.columnDefs.slice(dogColumnIndex + 1),
+//   ];
+// }
 var biathlonGridOptions1 = { ... biathlonGridOptions };
 var biathlonGridOptions2 = { ... biathlonGridOptions };
   
