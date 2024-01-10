@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
   new agGrid.Grid(biathlonGridDiv2, biathlonGridOptions2);
 
   
-  fetch("https://np-express.onrender.com/report")
+  fetch("https://np-screenshot.s3.us-west-2.amazonaws.com/report.json")
     .then(response => response.text())
     .then(result => {
       fullReport = result;
