@@ -199,32 +199,34 @@ document.addEventListener('DOMContentLoaded', function() {
       latestReportContent.style.marginTop = "0px";
       latestReportContent.style.marginBlockStart = "0px";
       latestReportContent.style.marginBlockEnd = "0px";
-      latestReportContent.innerHTML = latestReport["reportContent"]
+      latestReportContent.innerHTML = latestReport["content"]["en"]
       reportDiv.append(latestReportContent)
-      const reportDate = convertToLocaleTimeString(new Date(latestReport["reportTimestamp"]))  
+      const reportDate = convertToLocaleTimeString(new Date(latestReport["timestamp"]))  
       const reportBylineDiv = document.createElement('div');
       reportBylineDiv.innerHTML = `
         <div style="text-align: right;">
-          Reported <span style="font-weight: bold;">${reportDate}</span> by <span style="text-transform: capitalize;">${latestReport["reportAuthor"]}</span>
+          Reported <span style="font-weight: bold;">${reportDate}</span> by <span style="text-transform: capitalize;">${latestReport["author"]}</span>
         </div>
       `;
       reportDiv.appendChild(reportBylineDiv)
       
       // TODO check if length of noticeData is >0
-      const horizontalLine = document.createElement('hr');
-      reportDiv.appendChild(horizontalLine);
       var noticeData = reportDataParsed["ski-area"]["reportNotices"]
-      var notice = document.createElement("p")
-      notice.innerHTML = noticeData[0]["content"]["en"]
-      reportDiv.append(notice)
-      const noticeDate = convertToLocaleTimeString(new Date(noticeData[0]["updatedAt"]))  
-      const noticeBylineDiv = document.createElement('div');
-      noticeBylineDiv.innerHTML = `
-        <div style="text-align: right; font-size: smaller">
-          Notice updated <span style="font-weight: bold;">${noticeDate}</span>
-        </div>
-      `;
-      reportDiv.appendChild(noticeBylineDiv)
+      if (noticeData.length > 0) {
+        const horizontalLine = document.createElement('hr');
+        reportDiv.appendChild(horizontalLine);
+        var notice = document.createElement("p")
+        notice.innerHTML = noticeData[0]["content"]["en"]
+        reportDiv.append(notice)
+        const noticeDate = convertToLocaleTimeString(new Date(noticeData[0]["timestamp"]))  
+        const noticeBylineDiv = document.createElement('div');
+        noticeBylineDiv.innerHTML = `
+          <div style="text-align: right; font-size: smaller">
+            Notice updated <span style="font-weight: bold;">${noticeDate}</span>
+          </div>
+        `;
+        reportDiv.appendChild(noticeBylineDiv)
+      }
 
       // Filter out trails which we don't want (hidden or on named list)
       const excludedTrailNames = ['Biathlon Access', 'Copper Jack', "Gibbard's Hill", 'Unnamed Trails'];

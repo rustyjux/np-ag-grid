@@ -202,7 +202,7 @@ animation: spin 1s linear infinite;
 .report {
     /* position: relative; */
     background-color: #222628;
-    font-size: larger;
+    font-size: x-large;
     border: 2px solid #cccccc;
     width: 70%;
 }
