@@ -197,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const latestReport = reportDataParsed["ski-area"]["reportLatest"]
       var latestReportContent = document.createElement("p")
       latestReportContent.style.marginTop = "0px";
+      latestReportContent.style.marginLeft = "0px";
       latestReportContent.style.marginBlockStart = "0px";
       latestReportContent.style.marginBlockEnd = "0px";
       latestReportContent.innerHTML = latestReport["content"]["en"]
